@@ -29,7 +29,7 @@ En este proyecto, utilizaremos la API de opentdb para obtener preguntas de trivi
 
 #### Obtener una pregunta
 
-```
+```http
   GET https://opentdb.com/api.php?amount=1&difficulty=medium
 ```
 
@@ -131,7 +131,20 @@ fetch("tu url")
 
 
 
-## Author
+## Ejemplos
+
+Si en algún momento sientes que te has quedado estancado en el proyecto o simplemente necesitas inspiración, puedes echar un vistazo a la rama de ejemplos en la que encontrarás diversas páginas creadas por otras personas que han trabajado en este proyecto. Además, te proporciono un enlace a mi propia página web como referencia.
+- [Página de Ejemplo](https://profound-cascaron-ecbf87.netlify.app)
+
+También, si te gustaría que tu proyecto se incluya como ejemplo en este repositorio y quieras ser parte de los colaboradores, por favor no dudes en ponerte en contacto conmigo 😊.
+
+
+
+
+## Colaboradores
 
 - [@GN0VA](https://github.com/GN0VA)
 
+## Author
+
+- [@GN0VA](https://github.com/GN0VA)
