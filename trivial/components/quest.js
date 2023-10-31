@@ -29,9 +29,13 @@ export async function newQuest (difficulty,counter){
 
     
     const results = `
-        <div class='game'>
-            <h1>${question.question}</h1>
-            <p>${counter}</p>
+        <div class='game text-center'>
+            <h3>Streak: ${counter}</h3>
+            <h2>${question.question}</h2>
+            <div class="progress bg-upcustom" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-custom" style="width: 100%"></div>
+            </div>
+            
             <div class='answers'>
                 ${answers.map(element => 
                     `<button class = 'answer' value = ${element === question.correct_answer}>${element}</button>`
