@@ -29,7 +29,7 @@ En este proyecto, utilizaremos la API de opentdb para obtener preguntas de trivi
 
 #### Obtener una pregunta
 
-```http
+```
   GET https://opentdb.com/api.php?amount=1&difficulty=medium
 ```
 
